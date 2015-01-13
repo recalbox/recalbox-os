@@ -36,7 +36,9 @@ On first boot, you will have a message specifying that no game has been found. J
 Check the manuals :
 
 French : https://docs.google.com/document/d/1DyJmmb4YhigGI3po764lMO25ertI2ER3CPNk0jsikW0/edit?usp=sharing
+
 English (very sorry for the translation) : https://docs.google.com/document/d/1Ksqhg56HF7nzS8k8Vy_7j2gqw6tCUgcWWGaTBmEh70c/edit?usp=sharing
+
 Do not hesitate to correct me by commenting.
 
 ## Compilation : ##
@@ -57,13 +59,15 @@ Based on the awesome NOOBS from rpi team, the retrobox rescue allows you to easi
 If you wire an ethernet cable, it will check if a new version is available from the net.
 
 So how it works basically :
-The retrobox-buildroot create a fully functional system. This system is configured to run on a SD partitioned with 3 partition : 
-- boot (200MB) : fat32 partition containing boot files and kernel
-- root (2GB): ext2/4 partition containing the system
-- share (MAXIMUM SIZE) : fat32 partition on which all roms and save are placed.
-So if you want to install the system without retrobox-rescue, you will have to create your partitions and copy manually binary files created by retrobox-buildroot compilation on the SD (not recommended)
 
-The retrobox-rescue create a minimal system that will boot on rpi and install the retrobox-buildroot, either from the sd card or from the net.
+- The retrobox-buildroot create a fully functional system. This system is configured to run on a SD partitioned with 3 partition : 
+  - boot (200MB) : fat32 partition containing boot files and kernel
+  - root (2GB): ext2/4 partition containing the system
+  - share (MAXIMUM SIZE) : fat32 partition on which all roms and save are placed.
+
+  So if you want to install the system without retrobox-rescue, you will have to create your partitions and copy manually binary files created by retrobox-buildroot compilation on the SD (not recommended)
+
+- The _retrobox-rescue create a minimal system that will boot on rpi and install the retrobox-buildroot, either from the sd card or from the net.
 It create many partitions and allow you to install other systems in dual boot !
 
 

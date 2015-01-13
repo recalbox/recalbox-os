@@ -41,7 +41,7 @@ English (very sorry for the translation) : https://docs.google.com/document/d/1K
 
 Do not hesitate to correct me by commenting.
 
-## Compilation : ##
+## Compilation ##
 
 You have 3 projects composing the whole system :
 - *retrobox-emulationstation* : 
@@ -60,18 +60,18 @@ If you wire an ethernet cable, it will check if a new version is available from 
 
 So how it works basically :
 
-- The retrobox-buildroot create a fully functional system. This system is configured to run on a SD partitioned with 3 partition : 
+- The **retrobox-buildroot** create a fully functional system. This system is configured to run on a SD partitioned with 3 partition : 
   - boot (200MB) : fat32 partition containing boot files and kernel
   - root (2GB): ext2/4 partition containing the system
   - share (MAXIMUM SIZE) : fat32 partition on which all roms and save are placed.
 
   So if you want to install the system without retrobox-rescue, you will have to create your partitions and copy manually binary files created by retrobox-buildroot compilation on the SD (not recommended)
 
-- The _retrobox-rescue create a minimal system that will boot on rpi and install the retrobox-buildroot, either from the sd card or from the net.
+- The **retrobox-rescue** create a minimal system that will boot on rpi and install the retrobox-buildroot, either from the sd card or from the net.
 It create many partitions and allow you to install other systems in dual boot !
 
 
-You can make it easy by downloading createRetroboxOS.sh form the last release https://github.com/digitalLumberjack/retrobox-os/releases and launch it from a terminal (you will have to edit package installation if you are not on a debian based distribution)
+You can make it easy by downloading `createRetroboxOS.sh` form the last release https://github.com/digitalLumberjack/retrobox-os/releases and launch it from a terminal (you will have to edit package installation if you are not on a debian based distribution)
 It will compile retrobox-buildroot, retrobox-rescue, and create all necessary files in a folder called SDCONTENT.
 Then copy all the files in SDCONTENT to your sd card.
 

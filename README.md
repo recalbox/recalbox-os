@@ -88,3 +88,10 @@ It will compile retrobox-buildroot, retrobox-rescue, and create all necessary fi
 Then copy all the files in SDCONTENT to your sd card.
 
 
+## Translation ##
+If you want to participate in the translation of the frontend, you can download the french translation file, and change all msgstr entry, basing the translation on the english msgid corresponding.
+
+https://github.com/digitalLumberjack/retrobox-emulationstation/blob/retrobox-buildroot/locale/fr_FR/LC_MESSAGES/emulationstation2.po
+
+Then either you make a pull request with the source and compiled file (msgfmt command linux) or you send me the .po file by email. I'll take care of the integration.
+

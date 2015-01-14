@@ -30,19 +30,20 @@ Download retroboxOS.zip from https://github.com/digitalLumberjack/retrobox-os/re
 
 Then boot your rpi and install the retroboxOS !
 
+
+## Usage ##
 At first boot, you will see a message telling you no game is found. If you wired the ethernet cable, you will see on your network the retrobox sharing roms folder. Copy your unzipped roms in corresponding folders. You can also remove your sd card and add roms directly from your pc sd reader, in the SHARE partition.
 
 Reboot the retrobox.
 
 If you have a ps3 controller, plug it with an usb wire in the retrobox, wait 10 seconds, and unplug. The controller should be detected.
 
-If you want to use an USB controller, plug an usb keyboard, press ENTER, then go to "Configure Inputs", and use S to accept. Use S again to configure a controller and follow instructions.
+If you want to use an USB controller, plug an usb keyboard, press ENTER, then go to "Configure Inputs", and use S to accept. Use S again to launch the controller configuration, and follow instructions.
+
+Use Q to go back anytime.
 
 You can now navigate in the frontend and play games with your controller.
 
-
-## Usage ##
-On first boot, you will have a message specifying that no game has been found. Just copy your roms from your local network, or unplug the SD and put it in your card reader. A share partition is available with a rom folder, where you must put your files.
 
 Check the manuals :
 

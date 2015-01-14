@@ -20,7 +20,7 @@ The retrobox is designed to work with a PS3 or Shanwan controller, or USB contro
 - Controller configuration in the frontend : configure once, play everywhere.
 - Background frontend music
 - PS3 and Shanwan Bluetooth built-in support (plug a controller, unplug and play)
-- French and English, maybe other to come if you participate.
+- French, English, Portugues (thanks to mgoulart) and maybe other to come if you participate.
 - Frontend based on Aloshi great EmulationStation2
 - FBA optimized version with 4 player support (yeah Dungeons and Dragons)
 

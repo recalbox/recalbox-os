@@ -32,7 +32,7 @@ Then boot your rpi and install the retroboxOS !
 
 
 ## Usage ##
-At first boot, you will see a message telling you no game is found. If you wired the ethernet cable, you will see on your network the retrobox sharing roms folder. Copy your unzipped roms in corresponding folders. You can also remove your sd card and add roms directly from your pc sd reader, in the SHARE partition.
+At first boot, you will have access to homebrew distibuted with the retroboxOS. If you wired the ethernet cable, you will see on your network the retrobox sharing roms folder. Copy your unzipped roms in corresponding folders. You can also remove your sd card and add roms directly from your pc sd reader, in the SHARE partition.
 
 Reboot the retrobox.
 

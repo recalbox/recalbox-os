@@ -1,4 +1,6 @@
 # retrobox-os
+**New : get all infos on retrobox-os on the [WIKI](https://github.com/digitalLumberjack/retrobox-os/wiki)**
+
 The super repository for retrobox.
 
 This repository purpose is the regroup the differents retrobox projects in one to clarify and make it more easy to compile the system.
@@ -7,8 +9,6 @@ This repository purpose is the regroup the differents retrobox projects in one t
 retroboxOS is a light embedded system created to run on the raspberryPi.
 
 You can transform your rpi in an emulation platform, supporting up to 12 systems !
-
-All infos on the [WIKI](https://github.com/digitalLumberjack/retrobox-os/wiki)
 
 ## Features 
 - Supports Atari 2600, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX (not so much right now)

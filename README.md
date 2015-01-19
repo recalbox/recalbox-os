@@ -10,6 +10,7 @@ retroboxOS is a light embedded system created to run on the raspberryPi.
 
 You can transform your rpi in an emulation platform, supporting up to 12 systems !
 
+
 ## Features 
 - Supports Atari 2600, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX (not so much right now)
 - Build with buildroot, so the root file system is only 70MB compressed.
@@ -24,4 +25,20 @@ You can transform your rpi in an emulation platform, supporting up to 12 systems
 - Frontend based on Aloshi great EmulationStation2
 - FBA optimized version with 4 player support (yeah Dungeons and Dragons)
 
+## Projects
+**retroboxOS** is the main project, that aggregate the 3 sub-projects composing the system :
+
+- **retrobox-buildroot** : 
+https://github.com/digitalLumberjack/retrobox-buildroot (branch retrobox)  
+The retrobox-buildroot project is the buildroot system. It create the whole linux os that will run on the retrobox.
+You could compile this project, then copy output files to a manually formatted SD card to run the system on a raspberryPi. But there is a better way, called retrobox-rescue.
+
+- **retrobox-rescue** : 
+https://github.com/digitalLumberjack/retrobox-rescue (branch retrobox)  
+Based on the awesome NOOBS from rpi team, the retrobox rescue allows you to easily install retroboxOS and have a rescue partition on your SD card. It's an other minimal OS, that will download retroboxOS, format your SD card, and install the system for you.  
+It will check if a new version is available from the net, before installing SD card version. 
+
+- **retrobox-emulationstation** : 
+https://github.com/digitalLumberjack/retrobox-emulationstation/tree/retrobox-buildroot  
+Based on the Aloshi awesome emulationstation 2, the frontend has been a little modified to have ogg bg music, language selection, update support and controller configuration.
 

@@ -1,12 +1,12 @@
-# retrobox-os
-**New : get all infos on retrobox-os on the [WIKI](https://github.com/digitalLumberjack/retrobox-os/wiki)**
+# recalbox-os
+**New : get all infos on recalbox-os on the [WIKI](https://github.com/digitalLumberjack/recalbox-os/wiki)**
 
-The super repository for retrobox.
+The super repository for recalbox.
 
-This repository purpose is the regroup the differents retrobox projects in one to clarify and make it more easy to compile the system.
+This repository purpose is the regroup the differents recalbox projects in one to clarify and make it more easy to compile the system.
 
 ## Presentation
-retroboxOS is a light embedded system created to run on the raspberryPi.
+recalboxOS is a light embedded system created to run on the raspberryPi.
 
 You can transform your rpi in an emulation platform, supporting up to 12 systems !
 
@@ -26,19 +26,19 @@ You can transform your rpi in an emulation platform, supporting up to 12 systems
 - FBA optimized version with 4 player support (yeah Dungeons and Dragons)
 
 ## Projects
-**retroboxOS** is the main project, that aggregate the 3 sub-projects composing the system :
+**recalboxOS** is the main project, that aggregate the 3 sub-projects composing the system :
 
-- **retrobox-buildroot** : 
-https://github.com/digitalLumberjack/retrobox-buildroot (branch retrobox)  
-The retrobox-buildroot project is the buildroot system. It create the whole linux os that will run on the retrobox.
-You could compile this project, then copy output files to a manually formatted SD card to run the system on a raspberryPi. But there is a better way, called retrobox-rescue.
+- **recalbox-buildroot** : 
+https://github.com/digitalLumberjack/recalbox-buildroot (branch recalbox)  
+The recalbox-buildroot project is the buildroot system. It create the whole linux os that will run on the recalbox.
+You could compile this project, then copy output files to a manually formatted SD card to run the system on a raspberryPi. But there is a better way, called recalbox-rescue.
 
-- **retrobox-rescue** : 
-https://github.com/digitalLumberjack/retrobox-rescue (branch retrobox)  
-Based on the awesome NOOBS from rpi team, the retrobox rescue allows you to easily install retroboxOS and have a rescue partition on your SD card. It's an other minimal OS, that will download retroboxOS, format your SD card, and install the system for you.  
+- **recalbox-rescue** : 
+https://github.com/digitalLumberjack/recalbox-rescue (branch recalbox)  
+Based on the awesome NOOBS from rpi team, the recalbox rescue allows you to easily install retroboxOS and have a rescue partition on your SD card. It's an other minimal OS, that will download retroboxOS, format your SD card, and install the system for you.  
 It will check if a new version is available from the net, before installing SD card version. 
 
-- **retrobox-emulationstation** : 
-https://github.com/digitalLumberjack/retrobox-emulationstation/tree/retrobox-buildroot  
+- **recalbox-emulationstation** : 
+https://github.com/digitalLumberjack/recalbox-emulationstation/tree/recalbox-buildroot  
 Based on the Aloshi awesome emulationstation 2, the frontend has been a little modified to have ogg bg music, language selection, update support and controller configuration.
 

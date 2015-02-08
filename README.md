@@ -1,4 +1,6 @@
 # recalbox-os
+**New : recalboxOS is now compatible with RPi2 !**
+
 **New : get all infos on recalbox-os on the [WIKI](https://github.com/digitalLumberjack/recalbox-os/wiki)**
 
 The super repository for recalbox.

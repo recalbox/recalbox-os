@@ -28,6 +28,7 @@ You can transform your rpi in an emulation platform, supporting up to 16 systems
 - French, English, Portugues (thanks to mgoulart), Spanish, German and maybe other to come if you participate.
 - Frontend based on Aloshi great EmulationStation2
 - FBA optimized version with 4 player support (yeah Dungeons and Dragons)
+- Use RPi GPIOs as controllers
 
 ## Projects
 **recalboxOS** is the main project, that aggregate the 3 sub-projects composing the system :

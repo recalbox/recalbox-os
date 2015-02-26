@@ -1,4 +1,6 @@
 # recalbox-os
+**New : v3.2.3 Bug corrections, Analog joystick and L2/R2 added in joystick config **
+
 **New : v3.2.0 Wifi, Kodi and Scummvm support !**
 
 **New : v3.1.2 rpi2 n64 beta support !**

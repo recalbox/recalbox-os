@@ -1,4 +1,6 @@
 # recalbox-os
+**New : v3.2.11 Corrected same name controller bug, added zoid theme**
+
 **New : v3.2.4 New recalbox.conf system, new boot system.**
 
 **New : v3.2.3 Bug corrections, Analog joystick and L2/R2 added in joystick config**

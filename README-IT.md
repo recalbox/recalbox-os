@@ -2,6 +2,7 @@
 [![Française](http://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_france.png "Française")](README-FR.md)  [![Espagnol](http://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_spain.png "Espagnol")](README-ES.md)
 * * *
 # recalbox-os
+#### Piattaforma di emualzione arcade per raspberryPi!
 **Novità : v3.2.11 Corretti alcuni errori nei nomi dei controller, aggiunto tema zoid**
 
 **Novità : v3.2.4 Nuovo file di configurazione recalbox.conf, nuovo sistema di avvio.**
@@ -12,7 +13,7 @@
 
 **Novità : Tutte le informazioni su recalbox-os nella [WIKI IT](https://github.com/digitalLumberjack/recalbox-os/wiki/Home-%28IT%29)**
 
-il super repository per recalbox.
+###il super repository per recalbox.
 
 La finalità di questo repository è di raggruppare i differenti progetti recalbox in uno, per fare ordine e rendere
 piu' facile la compilazione del sistema.
@@ -33,7 +34,7 @@ Puoi trasformare il tuo raspberryPi in una piattaforma di emulatori (arcade game
 - Musica di sottofondo nell'interfaccia visuale.
 - Supporto integrato per controller Bluetooth PS3 e Shanwan (inserisci il controller, de-inserisci e gioca)
 - Francese, inglese, Portoghese, Spagnolo, Tedesco e italiano e forse altre lingue supportate in futuro...se ci aiuti e partecipi pure tu.
-- fantastica interfaccia EmulationStation2 basata su Aloshi 
+- Fantastica interfaccia EmulationStation2 basata su Aloshi 
 - Versione ottimizzata di FBA con supporto per 4 giocatori 
 - Puoi usare RPi GPIOs come controller
 
@@ -42,15 +43,16 @@ Puoi trasformare il tuo raspberryPi in una piattaforma di emulatori (arcade game
 
 - **recalbox-buildroot** : 
 https://github.com/digitalLumberjack/recalbox-buildroot (branch recalbox)  
-The recalbox-buildroot project is the buildroot system. It create the whole linux os that will run on the recalbox.
-You could compile this project, then copy output files to a manually formatted SD card to run the system on a raspberryPi. But there is a better way, called recalbox-rescue.
+Il progetto recalbox-buildroot è il sistema di buildroot. 
+Crea l'intero sistema operativo Linux OS che lancia e supporta la recalbox. Puoi compilare questo progetto, poi copiare i file creati in una SD card formattata e lanciare il ssitema su un raspberryPi.
+Attenzione! C'è un modo migliore per fare tutto cio, esso è chiamato recalbox-rescue.
 
 - **recalbox-rescue** : 
 https://github.com/digitalLumberjack/recalbox-rescue (branch recalbox)  
-Based on the awesome NOOBS from rpi team, the recalbox rescue allows you to easily install retroboxOS and have a rescue partition on your SD card. It's an other minimal OS, that will download retroboxOS, format your SD card, and install the system for you.  
-It will check if a new version is available from the net, before installing SD card version. 
+Basato sul fantastico NOOBS del team tpi, la recalbox rescue ti permette di installare retroboxOS in modo semplice e veloce permettendoti di avere una partizione di ripristino sulla tua carta SD. E' un altro OS molto leggero che scarica retroboxOS, formatta la tua carta SD e installa il ssitema al tuo posto.
+Automaticamente controlla se una nuova versione è presente via internet prima di intallarla sulla tua carta SD.
 
 - **recalbox-emulationstation** : 
 https://github.com/digitalLumberjack/recalbox-emulationstation/tree/recalbox-buildroot  
-Based on the Aloshi awesome emulationstation 2, the frontend has been a little modified to have ogg bg music, language selection, update support and controller configuration.
+Basato sulla fantastica emulationstation 2 Aloshi, l'interfaccia grafica è stata leggermente adattata per avere una musica di sottofondo (.ogg), selezione multilingua, supporto per aggiornamenti e configurazione dei controlle via interfaccia visuale.
 

@@ -3,4 +3,4 @@
 ****
 # recalbox-os
 
-##Contenido a traducir.!
+##Contenido a traducir!

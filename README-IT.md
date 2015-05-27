@@ -18,25 +18,24 @@ La finalità di questo repository è di raggruppare i differenti progetti recalb
 piu' facile la compilazione del sistema.
 
 ## Presentazione
-recalboxOS is a light embedded system created to run on the raspberryPi and raspberryPI 2.
-
-You can transform your rpi in an emulation platform, supporting up to 16 systems !
-
+recalboxOS è un sistema integrato molto leggero, creato per essere eseguito su raspberryPi e raspberryPI 2.
+ 
+Puoi trasformare il tuo raspberryPi in una piattaforma di emulatori (arcade game platform), con supporto per 16 sistemi differenti!
 
 ## Caratteristiche 
-- Supports Atari 2600, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX, SegaCD, Sega 32x, Sega SG1000, Famicom Disk System.
-- Build with buildroot, so the root file system is only 100MB compressed.
-- Rescue system based on NOOBS : reinstall directly from your sd card or get the last version from the net
-- Online update
-- Network access to rom folder, screenshots, saves.
-- fat32 rom partition : compatible with all systems
-- Controller configuration in the frontend : configure once, play everywhere.
-- Background frontend music
-- PS3 and Shanwan Bluetooth built-in support (plug a controller, unplug and play)
-- French, English, Portugues (thanks to mgoulart), Spanish, German, italiano and maybe other to come if you participate.
-- Frontend based on Aloshi great EmulationStation2
-- FBA optimized version with 4 player support (yeah Dungeons and Dragons)
-- Use RPi GPIOs as controllers
+- Supporta Atari 2600, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX, SegaCD, Sega 32x, Sega SG1000, Famicom Disk System.
+- Creato con buildroot, cosi il file di sistema pesa solamente 100MB compressi.
+- Sistema di ripristino basato su NOOBS : rReinstalla direttamente dalla tua carta SD o recupera l'ultima versione via internet.
+- Aggiornamenti online.
+- Accesso da rete ai folder delle rom, degli screenshots e delle partite salvate.
+- Partizione della rom in fat32 : compatibile con tutti i sistemi di gioco.
+- Configurazione dei controller direttamente dall'interfaccia visuale : Configuri una volta solo e giochi ad ogni gioco.
+- Musica di sottofondo nell'interfaccia visuale.
+- Supporto integrato per controller Bluetooth PS3 e Shanwan (inserisci il controller, de-inserisci e gioca)
+- Francese, inglese, Portoghese, Spagnolo, Tedesco e italiano e forse altre lingue supportate in futuro...se ci aiuti e partecipi pure tu.
+- fantastica interfaccia EmulationStation2 basata su Aloshi 
+- Versione ottimizzata di FBA con supporto per 4 giocatori 
+- Puoi usare RPi GPIOs come controller
 
 ## Progetti
 **recalboxOS** è il porgetto principale, aggrega i 3 sotto-progetti che compongono il sistema :

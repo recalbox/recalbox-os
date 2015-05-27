@@ -1,16 +1,16 @@
-[![Italiano](http://upload.wikimedia.org/wikipedia/commons/7/70/Flag_of_italy.png "Italiano")] [![English](http://upload.wikimedia.org/wikipedia/commons/e/e1/Union_Jack_22x16.png "English")](README.md)
+[![Italiano](http://upload.wikimedia.org/wikipedia/commons/7/70/Flag_of_italy.png "Italiano")](README-IT.md) [![English](http://upload.wikimedia.org/wikipedia/commons/e/e1/Union_Jack_22x16.png "English")](README.md)
 [![Française](http://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_france.png "Française")](README-FR.md)  [![Espagnol](http://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_spain.png "Espagnol")](README-ES.md)
 * * *
 # recalbox-os
-**Novità : v3.2.11 Corrected same name controller bug, aggiunto tema zoid**
+**Novità : v3.2.11 Corretti alcuni errori nei nomi dei controller, aggiunto tema zoid**
 
-**Novità : v3.2.4 New recalbox.conf system, new boot system.**
+**Novità : v3.2.4 Nuovo file di configurazione recalbox.conf, nuovo sistema di avvio.**
 
-**Novità : v3.2.3 Bug corrections, Analog joystick and L2/R2 added in joystick config**
+**Novità : v3.2.3 Correzioni di errori vari, joystick analogico e L2/R2 aggiunti nellla configurazione joystick**
 
-**Novità : recalboxOS is now compatible with RPi2 !**
+**Novità : recalboxOS è ora compatibile con RPi2 !**
 
-**Novità : get all infos on recalbox-os on the [WIKI](https://github.com/digitalLumberjack/recalbox-os/wiki)**
+**Novità : Tutte le informazioni su recalbox-os nella [WIKI IT](https://github.com/digitalLumberjack/recalbox-os/wiki/Home-%28IT%29)**
 
 il super repository per recalbox.
 

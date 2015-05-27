@@ -1,7 +1,8 @@
-[![Italiano](http://upload.wikimedia.org/wikipedia/commons/7/70/Flag_of_italy.png)](README-IT.md) [![English](http://upload.wikimedia.org/wikipedia/commons/e/e1/Union_Jack_22x16.png)](README.md)  [![Francaise](http://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_france.png)](README-FR.md)  [![Espagnol](http://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_spain.png)](README-ES.md)
-****
+[![Italiano](http://upload.wikimedia.org/wikipedia/commons/7/70/Flag_of_italy.png "Italiano")] [![English](http://upload.wikimedia.org/wikipedia/commons/e/e1/Union_Jack_22x16.png "English")](README.md)
+[![Française](http://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_france.png "Française")](README-FR.md)  [![Espagnol](http://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_spain.png "Espagnol")](README-ES.md)
+* * *
 # recalbox-os
-**Novità : v3.2.11 Corrected same name controller bug, added zoid theme**
+**Novità : v3.2.11 Corrected same name controller bug, aggiunto tema zoid**
 
 **Novità : v3.2.4 New recalbox.conf system, new boot system.**
 
@@ -22,7 +23,7 @@ recalboxOS is a light embedded system created to run on the raspberryPi and rasp
 You can transform your rpi in an emulation platform, supporting up to 16 systems !
 
 
-## Features 
+## Caratteristiche 
 - Supports Atari 2600, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX, SegaCD, Sega 32x, Sega SG1000, Famicom Disk System.
 - Build with buildroot, so the root file system is only 100MB compressed.
 - Rescue system based on NOOBS : reinstall directly from your sd card or get the last version from the net
@@ -38,7 +39,7 @@ You can transform your rpi in an emulation platform, supporting up to 16 systems
 - Use RPi GPIOs as controllers
 
 ## Progetti
-**recalboxOS** is the main project, that aggregate the 3 sub-projects composing the system :
+**recalboxOS** è il porgetto principale, aggrega i 3 sotto-progetti che compongono il sistema :
 
 - **recalbox-buildroot** : 
 https://github.com/digitalLumberjack/recalbox-buildroot (branch recalbox)  

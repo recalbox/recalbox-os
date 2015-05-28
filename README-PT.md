@@ -6,4 +6,3 @@
 ****
 # recalbox-os
 
-##Contenu à traduire!

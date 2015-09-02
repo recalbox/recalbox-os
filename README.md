@@ -5,55 +5,55 @@
 [![Español](http://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_spain.png "Español")](README-ES.md)
 ****
 # recalbox-os
-**New : v3.2.11 Corrected same name controller bug, added zoid theme**
+**Neu : v3.2.11 Fehler mit "gleicher Controller Name" wurde korrigiert, zoid Theme hinzugefügt**
 
-**New : v3.2.4 New recalbox.conf system, new boot system.**
+**Neu : v3.2.4 Neues recalbox.conf System, neues Boot System**
 
-**New : v3.2.3 Bug corrections, Analog joystick and L2/R2 added in joystick config**
+**Neu : v3.2.3 Fehlerkorrekturen, Analog Joystick und L2/R2 zu Joystick Konfiguration hinzugefügt**
 
-**New : recalboxOS is now compatible with RPi2 !**
+**Neu : recalboxOS ist jetzt kompatibel mit RPi2!**
 
-**New : get all infos on recalbox-os on the [WIKI](https://github.com/digitalLumberjack/recalbox-os/wiki)**
+**Neu : Alle Informationen zum recalbox-os im [WIKI](https://github.com/digitalLumberjack/recalbox-os/wiki)**
 
-The super repository for recalbox.
+Das Super "repository" für recalbox.
 
-This repository purpose is the regroup the differents recalbox projects in one to clarify and make it more easy to compile the system.
+Ziel dieses "repository" ist die Neu-Gruppierung der verschiedenen recalbox-Projekte zu einem Ganzen und die Vereinfachung das System zu kompilieren.
 
-## Presentation
-recalboxOS is a light embedded system created to run on the raspberryPi and raspberryPI 2.
+## Vorstellung
+recalboxOS ist ein leichtes, integriertes System, entwickelt für RaspberryPi und RaspberryPI 2.
 
-You can transform your rpi in an emulation platform, supporting up to 16 systems !
+Du kannst Deinen RPI in eine Emulations Plattform verwandeln, es werden bis zu 16 Systeme unterstützt!
 
 
-## Features 
-- Supports Atari 2600, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX, SegaCD, Sega 32x, Sega SG1000, Famicom Disk System.
-- Build with buildroot, so the root file system is only 100MB compressed.
-- Rescue system based on NOOBS : reinstall directly from your sd card or get the last version from the net
-- Online update
-- Network access to rom folder, screenshots, saves.
-- fat32 rom partition : compatible with all systems
-- Controller configuration in the frontend : configure once, play everywhere.
-- Background frontend music
-- PS3 and Shanwan Bluetooth built-in support (plug a controller, unplug and play)
-- French, English, Portugues (thanks to mgoulart), Spanish, German and maybe other to come if you participate.
-- Frontend based on Aloshi great EmulationStation2
-- FBA optimized version with 4 player support (yeah Dungeons and Dragons)
-- Use RPi GPIOs as controllers
+## Eigenschaften 
+- Unterstützt Atari 2600, NES, Game Boy, Game Boy Color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX, SegaCD, Sega 32x, Sega SG1000, Famicom Disk System.
+- Erstellt mit "buildroot", dadurch ist das Haupt-Datei-System auf nur 100MB komprimiert.
+- Rettungssystem basierend auf NOOBS : Neuinstallation direkt von Deiner SD-Karte oder hole Dir die letzte Version aus dem Netz.
+- Online Aktualisierung
+- Netzwerk-Zugriff zum ROM-Verzeichnis, Screenshots, Saves
+- Fat32 ROM-Partition : Mit allen Systemen kompatibel
+- Controller-Konfiguration im Front-End : einmalige Konfiguration, überall spielen
+- Hintergrund Front-End Musik
+- Integrierte PS3 und Shanwan Bluetooth Unterstützung (Einen Controller anschliessen, wieder entfernen und spielen)
+- Französisch, Englisch, Portugiesisch (Dank an mgoulart), Spanisch, Deutsch und vielleicht noch mehr, wenn teilgenommen wird
+- Front-End basierend auf dem großartigen EmulationStation2 von Aloshi
+- FBA optimierte Version mit Unterstützung für bis zu 4 Spieler (yeah Dungeons and Dragons)
+- Benutze RPI GPIOs als Contoller
 
-## Projects
-**recalboxOS** is the main project, that aggregate the 3 sub-projects composing the system :
+## Projekte
+**recalboxOS** ist das Haupt-Projekt, bestehend aus 3 Unter-Projekten, die das System bilden :
 
 - **recalbox-buildroot** : 
 https://github.com/digitalLumberjack/recalbox-buildroot (branch recalbox)  
-The recalbox-buildroot project is the buildroot system. It create the whole linux os that will run on the recalbox.
-You could compile this project, then copy output files to a manually formatted SD card to run the system on a raspberryPi. But there is a better way, called recalbox-rescue.
+Das recalbox-buildroot Projekt ist ein "buildroot" System. Es erstellt ein komplettes Linux Betriebssystem, dass auf recalbox lauffähig ist.
+Du kannst dieses Projekt kompilieren, dann die Ausgabe-Dateien auf eine manuell formartierte SD-Karte kopieren, um das System auf einem RaspberryPi zu starten. Es gibt aber noch einen besseren Weg, das recalbox-rescue System.
 
 - **recalbox-rescue** : 
 https://github.com/digitalLumberjack/recalbox-rescue (branch recalbox)  
-Based on the awesome NOOBS from rpi team, the recalbox rescue allows you to easily install retroboxOS and have a rescue partition on your SD card. It's an other minimal OS, that will download retroboxOS, format your SD card, and install the system for you.  
-It will check if a new version is available from the net, before installing SD card version. 
+Basierend auf dem grandiosen NOOBS vom RPI Team, ermöglicht Dir das recalbox-rescue System eine einfache Installation von RecalboxOS und einer Rettungs-Partition auf Deiner SD-Karte. Es ist ein anderes, kleines Betriebssystem, welches retroboxOS runterlädt, Deine SD-Karte formatiert und das System für Dich installiert.  
+Bevor die SD-Karten Version installiert wird, wird überprüft, ob eine neue Version im Internet verfügbar ist. 
 
 - **recalbox-emulationstation** : 
 https://github.com/digitalLumberjack/recalbox-emulationstation/tree/recalbox-buildroot  
-Based on the Aloshi awesome emulationstation 2, the frontend has been a little modified to have ogg bg music, language selection, update support and controller configuration.
+Basierend auf dem grandiosen EmulationStation2 von Aloshi, wurde das Front-End ein wenig modifiziert, um ogg Hintergrundmusik, Sprachauswahl, Update Unterstützung und Controller-Konfiguration zu ermöglichen.
 

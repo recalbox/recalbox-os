@@ -1,6 +1,7 @@
 [![English](http://upload.wikimedia.org/wikipedia/commons/e/e1/Union_Jack_22x16.png "English")](README.md)
 [![Italiano](http://upload.wikimedia.org/wikipedia/commons/7/70/Flag_of_italy.png "Italiano")](README-IT.md) 
 [![Français](http://upload.wikimedia.org/wikipedia/commons/1/14/Flag_of_france.png "Française")](README-FR.md)
+[![Deutsch](http://www.flagsoftheworld.eu/images/2/flag-of-germany.png "Deutsch")](README-DE.md)
 [![Portugues](http://www.flagsoftheworld.eu/images/2/flag-of-portugal.png "Portugues")](README-PT.md)
 [![Español](http://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_spain.png "Español")](README-ES.md)
 ****
@@ -22,11 +23,11 @@ This repository purpose is the regroup the differents recalbox projects in one t
 ## Presentation
 recalboxOS is a light embedded system created to run on the raspberryPi and raspberryPI 2.
 
-You can transform your rpi in an emulation platform, supporting up to 16 systems !
+You can transform your rpi in an emulation platform, supporting up to 32 systems !
 
 
 ## Features 
-- Supports Atari 2600, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX, SegaCD, Sega 32x, Sega SG1000, Famicom Disk System.
+- Supports Atari 2600, Atari 7800, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Famicom Disk System, Master System, Megadrive (Genesis), Gamegear, Game and Watch, Lynx, NeoGeo, NeoGeo Pocket, FBA (subset), iMame4all (subset), PCEngine, Supergrafx, MSX1/2, PSX, Sega Cd, Sega 32X, Sega SG1000, Playstation, ScummVM, Vectrex, VirtualBoy, Wonderswan
 - Build with buildroot, so the root file system is only 100MB compressed.
 - Rescue system based on NOOBS : reinstall directly from your sd card or get the last version from the net
 - Online update
@@ -56,4 +57,3 @@ It will check if a new version is available from the net, before installing SD c
 - **recalbox-emulationstation** : 
 https://github.com/digitalLumberjack/recalbox-emulationstation/tree/recalbox-buildroot  
 Based on the Aloshi awesome emulationstation 2, the frontend has been a little modified to have ogg bg music, language selection, update support and controller configuration.
-

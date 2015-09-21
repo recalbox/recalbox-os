@@ -36,7 +36,7 @@ You can transform your rpi in an emulation platform, supporting up to 32 systems
 - Controller configuration in the frontend : configure once, play everywhere.
 - Background frontend music
 - PS3 and Shanwan Bluetooth built-in support (plug a controller, unplug and play)
-- French, English, Portugues (thanks to mgoulart), Spanish, German and maybe other to come if you participate.
+- French, English, Portugues (thanks to mgoulart), Spanish, German, Italian and maybe other to come if you participate.
 - Frontend based on Aloshi great EmulationStation2
 - FBA optimized version with 4 player support (yeah Dungeons and Dragons)
 - Use RPi GPIOs as controllers

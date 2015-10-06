@@ -57,3 +57,4 @@ It will check if a new version is available from the net, before installing SD c
 - **recalbox-emulationstation** : 
 https://github.com/digitalLumberjack/recalbox-emulationstation/tree/recalbox-buildroot  
 Based on the Aloshi awesome emulationstation 2, the frontend has been a little modified to have ogg bg music, language selection, update support and controller configuration.
+

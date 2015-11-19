@@ -1,7 +1,7 @@
 License
 Redistribution and use of the RECALBOX code or any derivative works are permitted provided that the following conditions are met:
 
-Redistributions may not be sold, nor may they be used in a commercial product or activity.
+Redistributions may not be sold without authorization, nor may they be used in a commercial product or activity.
 Redistributions that are modified from the original source must include the complete source code, including the source code for all components used by a binary built from the modified sources.
 
 Redistributions must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.

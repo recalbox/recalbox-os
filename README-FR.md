@@ -6,11 +6,11 @@
 [![Español](http://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_spain.png "Español")](README-ES.md)
 ****
 # recalbox-os
-**Nouveauté : v3.2.11 Correction du bug des controleurs ayant le même nom, ajout du thème zoid**
+**Nouveauté : v3.2.11 Correction du bug des contrôleurs ayant le même nom, ajout du thème zoid**
 
 **Nouveauté : v3.2.4 Nouveau fichier recalbox.conf, nouveau système de démarrage.**
 
-**Nouveauté : v3.2.3 Correction de bugs, sitck analogique et L2/R2 ajouté dans la configuration du joystick**
+**Nouveauté : v3.2.3 Correction de bugs, stick analogique et L2/R2 ajouté dans la configuration du joystick**
 
 **Nouveauté : recalboxOS est maintenant compatible avec le RPi2 !**
 
@@ -26,21 +26,21 @@ recalboxOS est un système d'exploitation embarqué crée pour être léger et t
 Avec, vous pouvez transformer votre RaspberryPi en plate-forme d'émulation supportant jusqu'à 32 machines différentes.
 
 
-## Fonctionalités 
+## Fonctionnalités 
 - Support ce Atari 2600, Atari 7800, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Famicom Disk System, Master System, Megadrive (Genesis), Gamegear, Game and Watch, Lynx, NeoGeo, NeoGeo Pocket, FBA (subset), iMame4all (subset), PCEngine, Supergrafx, MSX1/2, PSX, Sega Cd, Sega 32X, Sega SG1000, Playstation, ScummVM, Vectrex, VirtualBoy, Wonderswan
 - Compilé avec buildroot, de cette façon l'OS ne pèse que 100MB une fois compressé.
 - Système de restauration basé sur NOOBS : vous pouvez le réinstaller directement depuis la carte SD ou récupérer la dernière version depuis internet.
 - Mises à jour via internet
 - Accès par le réseau aux dossiers des ROMs, des captures d'écran et des sauvegardes.
-- Partition des ROMs en FAT32: compatibilité intersystèmes garantie !
+- Partition des ROMs en FAT32: compatibilité inter systèmes garantie !
 - Configuration des manettes dans l'interface : configurez une fois, jouez partout !
 - Musique d'ambiance dans l'interface
-- Support inclus des normes Bluetooth PS3 er Shanwan (branchement d'une manette, débranchez et jouez)
+- Support inclus des normes Bluetooth PS3 et Shanwan (branchement d'une manette, débranchez et jouez)
 - Français, Anglais, Portugais (merci à mgoulart), Espagnol, Allemand, Italien et d'autres si vous participez à la traduction du projet.
 - Interface basée sur la géniale EmulationStation2 par Aloshi
 - FBA optimisé jusqu'à 4 joueurs
 - Possibilité d'utiliser les ports GPIO du RaspberryPi pour la manette
-- Use RPi GPIOs as controllers
+
 
 ## Projets
 **recalboxOS** est le principal projet, regroupant les 3 sous projets qui composent le système
@@ -52,7 +52,7 @@ Vous pouvez compiler ce projet, puis copiez le résultat sur une carte SD que vo
 
 - **recalbox-rescue** : 
 https://github.com/digitalLumberjack/recalbox-rescue (branch recalbox)  
-A l'instar de NOOBS de l'équipe du Raspberry Pi, recalbox-rescue vous permet d'installer facilement retroboxOS et d'avoir une partition de secours sur votre carte SD. C'est un autre système d'exploitation très léger qui va télécharger recalboxOS, formatter votre carte SD et l'installer pour vous, tout en vérifiant sur internet si une version plus récente est disponible avant l'installation.
+A l'instar de NOOBS de l'équipe du Raspberry Pi, recalbox-rescue vous permet d'installer facilement retroboxOS et d'avoir une partition de secours sur votre carte SD. C'est un autre système d'exploitation très léger qui va télécharger recalboxOS, formater votre carte SD et l'installer pour vous, tout en vérifiant sur internet si une version plus récente est disponible avant l'installation.
 
 - **recalbox-emulationstation** : 
 https://github.com/digitalLumberjack/recalbox-emulationstation/tree/recalbox-buildroot  

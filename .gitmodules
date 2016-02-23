@@ -4,3 +4,6 @@
 [submodule "recalbox-buildroot"]
 	path = recalbox-buildroot
 	url = http://github.com/digitallumberjack/recalbox-buildroot
+[submodule "recalbox-rescue"]
+	path = recalbox-rescue
+	url = https://github.com/recalbox/recalbox-rescue

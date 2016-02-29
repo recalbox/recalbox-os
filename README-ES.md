@@ -28,7 +28,7 @@ Puedes transformar tu rpi en una plataforma de emulación, soportando hasta 16 s
 
 ## Características 
 - Soporta Atari 2600, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX, SegaCD, Sega 32x, Sega SG1000, Famicom Disk System.
-- Construída con buildroot, por lo que el sistema de archivos root ocupa solo 100MB complimido.
+- Construída con buildroot, por lo que el sistema de archivos root ocupa solo 100MB comprimido.
 - Sistema de recuperación basado en NOOBS : reinstala directamente de tu tarjeta sd u obtén la última versión de la red
 - Actualización online
 - Acceso en red a la carpeta rom, capturas de pantalla, guardados.
@@ -37,7 +37,7 @@ Puedes transformar tu rpi en una plataforma de emulación, soportando hasta 16 s
 - Música de fondo en la interfaz
 - PS3 and Shanwan Bluetooth built-in support (plug a controller, unplug and play)
 - Francés, Inglés, Portugues (gracias a mgoulart), Español, Alemán y quizá alguna más si participas.
-- Interfaz basada en el fantásticoEmulationStation2 de Aloshi
+- Interfaz basada en el fantástico EmulationStation2 de Aloshi
 - Optimizada la versión del FBA con soporte de 4 jugadores (yeah Dungeons and Dragons)
 - Usados los GPIOs de la RPi como controladores
 
@@ -56,4 +56,4 @@ Se comprobará automáticamente si existe alguna nueva versión disponible en la
 
 - **recalbox-emulationstation** : 
 https://github.com/digitalLumberjack/recalbox-emulationstation/tree/recalbox-buildroot  
-Basado en el increíble emulationstation 2 de Aloshi, la interfaz ha sido modificada ligeramente para tener música ogg de fondo, selección de idioma, soporte de actualizaciones y congiguración del controlador.
+Basado en el increíble emulationstation 2 de Aloshi, la interfaz ha sido modificada ligeramente para tener música ogg de fondo, selección de idioma, soporte de actualizaciones y configuración del controlador.

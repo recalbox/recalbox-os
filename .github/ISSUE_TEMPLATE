@@ -1,0 +1,18 @@
+### Before posting issue 
+- For support go to **IRC** or **forum**. Github is only for development issue/improvement 
+- Be sure your issue is not already reported : check https://github.com/recalbox/recalbox-os/wiki/Known-Bugs-%28EN%29
+- Format your title's issue as follow : 
+- [Full Version][optional : KODI|ES|Buidroot|etc] short desc 
+
+ex: [4.0.0-beta1][ES] keyboard dosbox doesn't work 
+
+---
+Please fill the following form :
+
+### What happened
+
+### What should have happened
+
+### Enumerate your devices
+
+### How to reproduce the bug

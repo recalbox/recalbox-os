@@ -55,4 +55,4 @@ Baseado no incrível sistema NOOBS do time de desenvolvedores do rpi, o recalbox
 Ele checará se uma nova versão está disponível na internet, antes de instalar o sistema no cartão SD.
 
 recalbox-emulationstation : https://github.com/digitalLumberjack/recalbox-emulationstation/tree/recalbox-buildroot
-Baseado no incrível EmulationStation 2 (desenvolvide pelo Aloshi), a interface foi modificada para ter suporte a trilhas sonoras, seleção de idiomas, suporte a atualização e configuração de controles.
+Baseado no incrível EmulationStation 2 (desenvolvido pelo Aloshi), a interface foi modificada para ter suporte a trilhas sonoras, seleção de idiomas, suporte a atualização e configuração de controles.

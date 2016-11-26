@@ -1,0 +1,12 @@
+[submodule "recalbox-buildroot"]
+	path = recalbox-buildroot
+	url = https://github.com/recalbox/recalbox-buildroot
+[submodule "recalbox-emulationstation"]
+	path = recalbox-emulationstation
+	url = https://github.com/recalbox/recalbox-emulationstation
+[submodule "recalbox-configgen"]
+	path = recalbox-configgen
+	url = https://github.com/recalbox/recalbox-configgen
+[submodule "recalbox-rescue"]
+	path = recalbox-rescue
+	url = https://github.com/recalbox/recalbox-rescue

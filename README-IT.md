@@ -30,13 +30,13 @@ Puoi trasformare il tuo raspberryPi in una piattaforma di emulatori (arcade game
 
 ## Caratteristiche 
 - Supporta Atari 2600, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX, SegaCD, Sega 32x, Sega SG1000, Famicom Disk System.
-- Creato con buildroot, cosi il file di sistema pesa solamente 100MB compressi.
-- Sistema di ripristino basato su NOOBS : rReinstalla direttamente dalla tua carta SD o recupera l'ultima versione via internet.
+- Creato con buildroot, così il file di sistema pesa solamente 100MB compressi.
+- Sistema di ripristino basato su NOOBS : Reinstalla direttamente dalla tua scheda SD o recupera l'ultima versione via internet.
 - Aggiornamenti online.
-- Accesso da rete ai folder delle rom, degli screenshots e delle partite salvate.
-- Partizione della rom in fat32 : compatibile con tutti i sistemi di gioco.
-- Configurazione dei controller direttamente dall'interfaccia visuale : Configuri una volta solo e giochi ad ogni gioco.
-- Musica di sottofondo nell'interfaccia visuale.
+- Accesso da rete alle cartelle delle rom, degli screenshot e delle partite salvate.
+- Partizione delle rom in fat32 : compatibile con tutti i sistemi di gioco.
+- Configurazione dei controller direttamente dall'interfaccia utente : Configuri una sola volta e giochi ad ogni gioco.
+- Musica di sottofondo nell'interfaccia utente.
 - Supporto integrato per controller Bluetooth PS3 e Shanwan (inserisci il controller, de-inserisci e gioca)
 - Francese, inglese, Portoghese, Spagnolo, Tedesco e italiano e forse altre lingue supportate in futuro...se ci aiuti e partecipi pure tu.
 - Fantastica interfaccia EmulationStation2 basata su Aloshi 

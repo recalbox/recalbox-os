@@ -7,6 +7,8 @@
 [![Türkçe](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/24px-Flag_of_Turkey.svg.png "Türkçe")](README-TR.md)
 ****
 # recalbox-os
+
+[![Join the chat at https://gitter.im/digitalLumberjack/recalbox-os](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/digitalLumberjack/recalbox-os?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 **New : v3.2.11 Corrected same name controller bug, added zoid theme**
 
 **New : v3.2.4 New recalbox.conf system, new boot system.**

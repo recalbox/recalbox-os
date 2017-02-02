@@ -6,57 +6,105 @@
 [![Español](http://upload.wikimedia.org/wikipedia/commons/3/30/Flag_of_spain.png "Español")](README-ES.md)
 [![Türkçe](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/24px-Flag_of_Turkey.svg.png "Türkçe")](README-TR.md)
 ****
-# recalbox-os
-**Neu : V3.2.11 - Fehler mit "gleicher Controller Name" wurde korrigiert, Zoid Theme hinzugefügt**
-
-**Neu : V3.2.4  - Neues recalbox.conf System, neues Boot-System**
-
-**Neu : V3.2.3  - Fehlerkorrekturen, Analog Joystick und L2/R2 zu Joystick-Konfiguration hinzugefügt**
-
-**Neu : recalboxOS ist jetzt kompatibel mit RPi2!**
-
-**Neu : Alle Informationen zum recalbox-os im [WIKI](https://github.com/digitalLumberjack/recalbox-os/wiki)**
-
+# recalboxOs
+  
 Das Super "Repository" für recalbox.
+
+**Alle Anleitungen zu recalboxOs gibt es im [WIKI](https://github.com/digitalLumberjack/recalbox-os/wiki)**
+  
+**Weitere Hilfe sowie Inspiration findest du im [FORUM](https://forum.recalbox.com)**
 
 Ziel dieses "Repository" ist die Neu-Gruppierung der verschiedenen recalbox-Projekte zu einem Ganzen und die 
 Vereinfachung das System zu kompilieren.
+  
 ## Vorstellung
-recalboxOS ist ein leichtes, integriertes System, entwickelt für RaspberryPi und RaspberryPI 2.
+recalboxOS ist ein leichtes, integriertes System, welches für folgende Plattformen entwickelt wird:  
+  
+* Raspberry Pi 1
+* Raspberry Pi 2
+* Raspberry Pi 3
+* Odroid XU4
+* PC (x86)
+* PC (x86_64)
 
-Du kannst Deinen RPI in eine Emulations Plattform verwandeln, es werden bis zu 16 Systeme unterstützt!
+Du kannst deine Hardware in eine Retro-Gamekonsole verwandeln, die mehr als 40 verschiedene Systeme unterstützt.
 
 ## Eigenschaften
-- Unterstützung für Atari 2600, NES, Game Boy, Game Boy Color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX, SegaCD, Sega 32x, Sega SG1000, Famicom Disk System
-- Erstellt mit "buildroot", dadurch ist das Haupt-Datei-System auf nur 100MB komprimiert
-- Rettungssystem basierend auf NOOBS : Neuinstallation direkt von Deiner SD-Karte oder hole Dir die letzte Version aus dem Netz
-- Online-Aktualisierung
-- Netzwerk-Zugriff auf ROM-Verzeichnis, Screenshots, Saves, etc.
-- Fat32 ROM-Partition : Mit allen Systemen kompatibel
-- Controller-Konfiguration im Front-End : Einmalige Konfiguration, überall spielen
-- Hintergrundmusik im Front-End
-- Integrierte PS3 und ShanWan Bluetooth Unterstützung (Einen Controller anschliessen, wieder entfernen und spielen)
-- Französisch, Englisch, Portugiesisch (Dank an mgoulart), Spanisch, Deutsch und mit Unterstützung vielleicht noch mehr
-- Front-End basierend auf dem großartigen EmulationStation2 von Aloshi
-- FBA optimierte Version mit Unterstützung für bis zu 4 Spieler (Yeah Dungeons and Dragons)
-- Benutze RPI GPIOs als Contoller
+Momentan werden Emulatoren für folgende Systeme unterstützt:  
+  
+- Arcade
+- Arcade Classic
+- NES (Nintendo Entertainment System)
+- FDS (Famicom Disk System)
+- SNES (Super Nintendo Entertainment System)
+- Nintendo 64
+- Game Boy
+- Game Boy Color
+- Game Boy Advance
+- Nintendo Game and Watch
+- Nintendo Virtual Boy
+- Play Station 1
+- Atari 2600
+- Atari 7800
+- Atari ST
+- Atari Lynx
+- NEC PC Engine (TurboGrafx 16)
+- NEC Supergrafx
+- Sega Master System
+- Sega Megadrive (Genesis)
+- Sega SG1000
+- Sega 32x
+- Sega CD
+- Sega Game Gear
+- MSX 1
+- MSX 2
+- MSX 2+
+- ScummVM
+- PRBOOM
+- Vectrex
+- Wonderswan Color
+- NeoGeo Pocket Color
+- NeoGeo/NeoGeo CD
+- Philips Odyssey 2 Videopac
+- Amstrad CPC
+- Sinclair ZX81
+- Sinclair ZX Spectrum
+- Moonlight   
+  
+Das System wird laufend durch neue Emulatoren erweitert (je nach Rechenleistung der verwendeten und kompatiblen Hardware).   
+   
+- Erstellt mit "buildroot". Dadurch ist das Haupt-Dateisystem nur 150MB groß
+- Rettungssystem basierend auf NOOBS: Neuinstallation direkt von der SD-Karte, oder lade die neueste Version von recalbox.com herunter.
+- WiFi Unterstützung (Mit Dongle oder beim Raspberry Pi 3 intern)
+- Online-Systemaktualisierung
+- Netzwerkzugriff auf das ROM-Verzeichnis, auf Screenshots, Spielstände, etc.
+- KODI Media Center
+- Controllerkonfiguration im Frontend: Einmalige Konfiguration, für jedes System nutzbar
+- Eingebaute PS3, Xbox360, 8Bitdo und Bluetooth (Dongle) Unterstützung (Controller anschliessen und spielen)
+- In mehreren Sprachen verfügbar: Deutsch, Englisch, Französisch, Portugiesisch, Spanisch, Schwedisch, Italienisch, Türkisch, Chinesisch und bei Unterstützung durch die Community vielleicht auch bald noch mehr
+- Frontend basiert auf dem großartigen EmulationStation2 von Aloshi
+- Hintergrundmusik im Frontend
+- FBA-Optimierte Version mit Unterstützung für bis zu 4 Spieler
+- GPIO Treiber für Arcade, original NES, SNES, Megadrive, PSX oder XinMo Controller
+- Lieblingsspiele als Favoriten abspeichern.
+- [Miroof's Virtual Gamepad] (https://github.com/miroof/node-virtual-gamepads) Unterstützung (Smartphone als Controller benutzen)
 
 ## Projekte
-**recalboxOS** ist das Haupt-Projekt, bestehend aus 3 Unter-Projekten, die das System bilden :
+**recalboxOS** ist das Haupt-Projekt, bestehend aus 3 Unter-Projekten, die das System bilden:
 
-- **recalbox-buildroot** :
+- **recalbox-buildroot**:
 https://github.com/digitalLumberjack/recalbox-buildroot (branch recalbox)                                                   
 Das recalbox-buildroot Projekt ist ein "buildroot" System. Es erstellt ein komplettes Linux Betriebssystem, dass auf recalbox lauffähig ist.
-Du kannst dieses Projekt kompilieren, dann die Ausgabe-Dateien auf eine manuell formartierte SD-Karte kopieren, um das System auf einem RaspberryPi zu starten. 
+Du kannst dieses Projekt kompilieren, dann die Ausgabe-Dateien auf eine manuell formartierte SD-Karte kopieren, um das System auf einem Raspberry Pi oder kompatibler Hardware zu starten. 
 Es gibt aber noch einen besseren Weg, das recalbox-rescue System.
 
-- **recalbox-rescue** : 
+- **recalbox-rescue**: 
 https://github.com/digitalLumberjack/recalbox-rescue (branch recalbox)                                                      
 Basierend auf dem grandiosen NOOBS vom RPI Team, ermöglicht Dir das recalbox-rescue System eine einfache Installation von RecalboxOS und einer Rettungs-Partition auf Deiner SD-Karte. 
 Es ist ein anderes, kleines Betriebssystem, welches retroboxOS runterlädt, Deine SD-Karte formatiert und das System für Dich installiert.  
 Bevor die SD-Karten Version installiert wird, wird überprüft, ob eine neue Version im Internet verfügbar ist.
 
-- **recalbox-emulationstation** :
+- **recalbox-emulationstation**:
 https://github.com/digitalLumberjack/recalbox-emulationstation/tree/recalbox-buildroot
 Basierend auf dem grandiosen EmulationStation2 von Aloshi, wurde das Front-End ein wenig modifiziert, 
-um ogg Hintergrundmusik, Sprachauswahl, Update Unterstützung und Controller-Konfiguration zu ermöglichen.
+um _ogg_ Hintergrundmusik, Sprachauswahl, Update Unterstützung und Controller-Konfiguration zu ermöglichen.

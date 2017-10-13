@@ -7,6 +7,8 @@
 [![Türkçe](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/24px-Flag_of_Turkey.svg.png "Türkçe")](README-TR.md)
 ****
 # recalbox-os
+**New : v4.1.0**
+
 **New : v3.2.11 Corrected same name controller bug, added zoid theme**
 
 **New : v3.2.4 New recalbox.conf system, new boot system.**

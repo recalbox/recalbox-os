@@ -24,23 +24,23 @@ El propósito de este repositorio es reagrupar los diferentes proyectos de recal
 ## Presentación
 recalboxOS es un sistema ligero incrustado que funciona en la raspberryPi y la raspberryPi 2.
 
-Puedes transformar tu rpi en una plataforma de emulación, soportando hasta 16 sistemas !
+Puedes transformar tu rpi en una plataforma de emulación, soportando hasta 32 sistemas !
 
 
 ## Características 
-- Soporta Atari 2600, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Master System, Megadrive (Genesis), FBA, iMame4all, PCEngine, MSX1/2, PSX, SegaCD, Sega 32x, Sega SG1000, Famicom Disk System.
+- Soporta Atari 2600, Atari 7800, NES, Game Boy, Game Boy color, Game Boy Advance, Super Nintendo, Famicom Disk System, Master System, Megadrive (Genesis), Gamegear, Game and Watch, Lynx, NeoGeo, NeoGeo Pocket, FBA (subset), iMame4all (subset), PCEngine, Supergrafx, MSX1/2, PSX, Sega Cd, Sega 32X, Sega SG1000, Playstation, ScummVM, Vectrex, VirtualBoy, Wonderswan.
 - Construída con buildroot, por lo que el sistema de archivos root ocupa solo 100MB comprimido.
-- Sistema de recuperación basado en NOOBS : reinstala directamente de tu tarjeta sd u obtén la última versión de la red
-- Actualización online
+- Sistema de recuperación basado en NOOBS : reinstala directamente de tu tarjeta sd u obtén la última versión de la red.
+- Actualización online.
 - Acceso en red a la carpeta rom, capturas de pantalla, guardados.
-- Partición rom fat32 : compatible con todos los sistemas
+- Partición rom fat32 : compatible con todos los sistemas.
 - La configuración del controlador está en la interfaz : configura una vez, ejecuta todas las veces que quieras.
-- Música de fondo en la interfaz
-- PS3 and Shanwan Bluetooth built-in support (plug a controller, unplug and play)
+- Música de fondo en la interfaz.
+- PS3 and Shanwan Bluetooth built-in support (plug a controller, unplug and play).
 - Francés, Inglés, Portugues (gracias a mgoulart), Español, Alemán y quizá alguna más si participas.
-- Interfaz basada en el fantástico EmulationStation2 de Aloshi
-- Optimizada la versión del FBA con soporte de 4 jugadores (yeah Dungeons and Dragons)
-- Usados los GPIOs de la RPi como controladores
+- Interfaz basada en el fantástico EmulationStation2 de Aloshi.
+- Optimizada la versión del FBA con soporte de 4 jugadores (yeah Dungeons and Dragons).
+- Usados los GPIOs de la RPi como controladores.
 
 ## Proyectos
 **recalboxOS** es el proyecto principal, que se compone de 3 subproyectos :
